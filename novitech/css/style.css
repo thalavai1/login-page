@@ -1,0 +1,76 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color:white;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+section{
+    padding: 15px;
+}
+#product{
+    display: flex; 
+    padding: 10px;
+}
+.product{
+     border: 2px solid;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 5px;
+}
+.product img{
+    border-radius: 10px;
+    max-width: 100%;
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.price{
+    font-weight: bold;
+}
+#btn1{
+    background-color:yellow;
+    color: black;
+}
+#btn2{
+    padding: 10px 30px;
+    background-color: orange;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding:10px;
+    text-align: center;
+}
+.btn_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate{
+    display: flex;
+    gap: 10px;
+}
+h6{
+    margin: 10px;
+}
